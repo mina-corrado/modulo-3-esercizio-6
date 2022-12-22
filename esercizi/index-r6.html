@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I miei album musicali</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      .r-0 {
+        right: 0;
+      }
+      .t-0 {
+        top: 0;
+      }
+      .l-0 {
+        left: 0;
+      }
+      .b-0 {
+        bottom: 0;
+      }
+      .button3d:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+          transition: 0.7s;
+      }
+    </style>
+  
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">I Miei Album</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#preferiti">Preferiti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recensioni">Recensioni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#peggiori">Peggiori</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tutti">Tutti</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <!-- <div class="p-3">
+            <h1>I miei album musicali</h1>
+            <p>Mi chiamo Mina sono nata l'11 Ottobre. Mi piace molto la musica in generale. Ne ascolto di diversi tipi.</p>
+        </div> -->
+        <div class="jumbotron">
+            <h1 class="display-4">I miei album musicali</h1>
+            <p class="lead">Mi chiamo Mina sono nata l'11 Ottobre. Mi piace molto la musica in generale. Ne ascolto di diversi tipi.</p>
+            <hr class="my-4">
+          </div>
+    </header>
+    <main class="wrapper flex-grow-1 mt-1">
+        <section id="preferiti">
+            <div class="container">
+                <div class="row">
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://ia902202.us.archive.org/26/items/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88-7801823794_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                      <h5 class="card-title text-truncate">L'ombrello e la macchina da cucire</h5> <!-- titolo album -->
+                                      <h6 class="card-subtitle mb-2 text-muted">1995</h6>
+                                      <h6>Franco Battiato</h6> <!--gruppo/artista album -->
+                                      <p class="card-text">41:42</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Musica d'autore</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/The_Joshua_Tree.png" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">The Joshua Tree</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1987</h6>
+                                        <h6>U2</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">50:11</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Pop</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://ia800307.us.archive.org/11/items/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14-950621203_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">Ten</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1991</h6>
+                                        <h6>Pearl Jam</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">53:18</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Grunge</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Dave_Matthews_Band_-_Under_the_Table_and_Dreaming.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">Under the Table and Dreaming</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1994</h6>
+                                        <h6>Dave Matthews Band</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">62:52</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Blues Rock</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+    
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://ia902202.us.archive.org/26/items/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88-7801823794_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                      <h5 class="card-title text-truncate">L'ombrello e la macchina da cucire</h5> <!-- titolo album -->
+                                      <h6 class="card-subtitle mb-2 text-muted">1995</h6>
+                                      <h6>Franco Battiato</h6> <!--gruppo/artista album -->
+                                      <p class="card-text">41:42</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Musica d'autore</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/The_Joshua_Tree.png" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">The Joshua Tree</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1987</h6>
+                                        <h6>U2</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">50:11</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Pop</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://ia800307.us.archive.org/11/items/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14-950621203_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">Ten</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1991</h6>
+                                        <h6>Pearl Jam</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">53:18</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Grunge</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-4 col-lg-3 mb-1">
+                            <div class="card-deck">
+                                <div class="card position-relative" style="width: 18rem;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Dave_Matthews_Band_-_Under_the_Table_and_Dreaming.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-truncate">Under the Table and Dreaming</h5> <!-- titolo album -->
+                                        <h6 class="card-subtitle mb-2 text-muted">1994</h6>
+                                        <h6>Dave Matthews Band</h6> <!--gruppo/artista album -->
+                                        <p class="card-text">62:52</p> <!-- durata-->
+                                    </div>
+                                    <span class="position-absolute t-0 r-0 mt-1 mr-1 p-2 badge badge-pill badge-info">Rock/Blues Rock</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                
+            </div>
+        </section>
+        <section id="albumbattiato" class="mt-3">
+          <div class="container">
+                <div class="row">
+                  <div class="col col-lg-12">
+                    <h3>L'ombrello e la macchina da cucire</h3>
+                    <h4>Tracce</h4>
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Titolo</th>
+                            <th scope="col">Artista</th>
+                            <th scope="col">Durata</th>
+                            <th scope="col">&nbsp;</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>L'ombrello e la macchina da cucire</td>
+                            <td>Franco Battiato</td>
+                            <td>4:20</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(1);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Breve invito a rinviare il suicidio</td>
+                            <td>Franco Battiato</td>
+                            <td>4:19</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(2);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Piccolo pub</td>
+                            <td>Franco Battiato</td>
+                            <td>4:03</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(3);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Fornicazione </td>
+                            <td>Franco Battiato</td>
+                            <td>4:19</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(4);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Gesualdo da Venosa</td>
+                            <td>Franco Battiato</td>
+                            <td>4:08</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(5);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Moto browniano</td>
+                            <td>Franco Battiato</td>
+                            <td>4:43</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(6);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Tao </td>
+                            <td>Franco Battiato</td>
+                            <td>4:01</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(7);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>Un vecchio cameriere</td>
+                            <td>Franco Battiato</td>
+                            <td>4:11</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(8);">ELIMINA</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>L'esistenza di Dio</td>
+                            <td>Franco Battiato</td>
+                            <td>7:38</td>
+                            <td><button type="button" class="btn btn-danger" onclick="eliminaRiga(9);">ELIMINA</button></td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td><button type="button" class="btn btn-success button3d" onclick="aggiungiTraccia();">Aggiungi traccia</button></td>
+                          </tr>
+                        </tfoot>
+                    </table>
+                  </div>
+                </div>
+          </div>
+        </section>
+        <section id="recensioni">
+            <div class="jumbotron">
+                <h2 class="display-4">Recensioni</h2>
+                <hr class="my-4">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-lg-12">
+                            <div class="p-3">
+                                <h3>Uno</h3>
+                                <img class="img-fluid" src="https://ia902806.us.archive.org/34/items/mbid-4cf18823-b0a0-4030-82bc-549ea2b41c05/mbid-4cf18823-b0a0-4030-82bc-549ea2b41c05-25448747379_thumb1200.jpg">
+                                <p>Artista: <span class="font-weight-bold">Marlene Kuntz</span></p>
+                                <p>Durata: <span class="font-weight-bold">57:06</span></p>
+                                <p>Genere: <span class="font-weight-bold">Musica D'Autore</span></p>
+                                <h5>Disco</h5>
+                                <p>
+                                    Il disco è stato registrato e mixato a Cuneo da Riccardo Parravicini e prodotto da Gianni Maroccolo. Vede la straordinaria partecipazione di Paolo Conte (al pianoforte in Musa) e di Greg Cohen (contrabbassista di Tom Waits).[1] Si tratta di un concept album incentrato sull'amore in tutte le sue sfaccettature. I singoli estratti sono Uno e Musa. Il disco vede un cambio di sonorità molto importante, infatti vengono abbandonati totalmente i suoni e le composizioni dei precedenti lavori a favore di un rock più cantautorale e malinconico.
+
+Nel booklet del CD, inoltre, molti autori italiani hanno dato il loro contributo in prosa: tra di loro spiccano Stefano Benni, Carlo Lucarelli, Tiziano Scarpa ed Enrico Brizzi.[1]
+
+Per la grafica e le coreografie della copertina e del booklet dell'album, il gruppo ha scelto i luoghi e le rappresentazioni dell'Arte Sella presenti nell'edizione della Biennale del 2006.
+
+Nel Live in Love Tour, che segue la pubblicazione dell'album, si uniscono al gruppo il bassista Luca "Lagash" Saporiti (La Crus, Amor Fou) e il polistrumentista Davide Arneodo.
+                                </p>
+                                <h4>Tracce</h4>
+                                <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Titolo</th>
+                                        <th scope="col">Durata</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Canto</td>
+                                        <td>5:03</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Musa</td>
+                                        <td>5:03</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>111</td>
+                                        <td>5:39</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>Canzone ecologica</td>
+                                        <td>3:49</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">5</th>
+                                        <td>Fantasmi</td>
+                                        <td>4:40</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">6</th>
+                                        <td>La ballata dell'ignavo</td>
+                                        <td>5:29</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">7</th>
+                                        <td>Abbracciami</td>
+                                        <td>4:26</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">8</th>
+                                        <td>Sapore di miele</td>
+                                        <td>4:48</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">9</th>
+                                        <td>Canzone sensuale</td>
+                                        <td>4:38</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">10</th>
+                                        <td>Negli abissi fra i palpiti</td>
+                                        <td>4:53</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">11</th>
+                                        <td>Stato d'animo</td>
+                                        <td>4:51</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">12</th>
+                                        <td>Uno</td>
+                                        <td>3:47</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="peggiori">
+            <div class="jumbotron">
+                <h2 class="display-4">Hall of shame</h2>
+                <hr class="my-4">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-lg-12">
+                            <table class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Titolo</th>
+                                    <th scope="col">Autore</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Giorgia</td>
+                                    <td>Giorgia</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Io canto</td>
+                                    <td>Laura Pausini</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Portami con te</td>
+                                    <td>Gigi D'Alessio</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">4</th>
+                                    <td>A storia mia</td>
+                                    <td>Nino D'Angelo</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">5</th>
+                                    <td>5030</td>
+                                    <td>Nek</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">6</th>
+                                    <td>Sig. Brainwash - L'arte di accontentare</td>
+                                    <td>Fedez</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">7</th>
+                                    <td>Blu Celeste</td>
+                                    <td>Blanco</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">8</th>
+                                    <td>Canto al sole</td>
+                                    <td>Al Bano</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="tutti">
+          <div class="jumbotron">
+            <h2 class="display-4">Tutti</h2>
+            <hr class="my-4">
+            <div class="container">
+              <div class="row">
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3 ">
+                  <img src="https://ia902202.us.archive.org/26/items/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88/mbid-a372537f-c70f-4759-9f72-89f80ce8fe88-7801823794_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Dave_Matthews_Band_-_Under_the_Table_and_Dreaming.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia800307.us.archive.org/11/items/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14/mbid-8d0bc6d4-8700-44e8-90c8-b86c23e7ff14-950621203_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia902806.us.archive.org/34/items/mbid-4cf18823-b0a0-4030-82bc-549ea2b41c05/mbid-4cf18823-b0a0-4030-82bc-549ea2b41c05-25448747379_thumb1200.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/The_Joshua_Tree.png" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia803209.us.archive.org/32/items/mbid-ff49aa3c-bf9c-45b1-bfc4-be653fb69631/mbid-ff49aa3c-bf9c-45b1-bfc4-be653fb69631-4021903288_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia600403.us.archive.org/4/items/mbid-79105df7-58f0-4c1e-9e36-e78d832b198e/mbid-79105df7-58f0-4c1e-9e36-e78d832b198e-4982372378_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia902205.us.archive.org/20/items/mbid-1b14117c-a4ad-4f4f-82eb-90d35aae25cd/mbid-1b14117c-a4ad-4f4f-82eb-90d35aae25cd-7801840517_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia801305.us.archive.org/19/items/mbid-bab57bb1-67a7-460a-a5c4-15c9a1df7d2d/mbid-bab57bb1-67a7-460a-a5c4-15c9a1df7d2d-25326844790_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia600909.us.archive.org/4/items/mbid-d3293b57-7ad9-423f-8caa-cd2bbc210aa5/mbid-d3293b57-7ad9-423f-8caa-cd2bbc210aa5-22286288584_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia802708.us.archive.org/34/items/mbid-61bb2fc5-9585-47f0-84cf-c178f5b9ae5b/mbid-61bb2fc5-9585-47f0-84cf-c178f5b9ae5b-2762954828_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia801208.us.archive.org/33/items/mbid-639f0d06-53bd-32a5-8f65-1db785743ab0/mbid-639f0d06-53bd-32a5-8f65-1db785743ab0-14428051659_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia801804.us.archive.org/12/items/mbid-5ac46394-2a2a-4abc-9fe8-f53c4c803a9b/mbid-5ac46394-2a2a-4abc-9fe8-f53c4c803a9b-28885360205_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia600907.us.archive.org/26/items/mbid-f0a4ed57-10e0-4c37-81b4-36311dc7d4b6/mbid-f0a4ed57-10e0-4c37-81b4-36311dc7d4b6-5087053841_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia800502.us.archive.org/27/items/mbid-6e1e07e6-1d9d-4c09-bef5-0a81d89df7f9/mbid-6e1e07e6-1d9d-4c09-bef5-0a81d89df7f9-6901891780_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+                <div class="p-0 col col-sm-6 col-md-4 col-lg-3">
+                  <img src="https://ia802201.us.archive.org/10/items/mbid-a6890748-e2e6-471d-947f-fade17fab888/mbid-a6890748-e2e6-471d-947f-fade17fab888-31768917782_thumb500.jpg" class="card-img-top" alt="..."> <!-- img copertina -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="container text-center">
+          <span class="text-light">Mina 2022&copy;</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+      function eliminaRiga(rigaNum) {
+        const allRows = document.querySelectorAll('#albumbattiato table tbody tr');
+        for (const row of allRows) {
+          const numero = row.querySelector('th');
+          if (rigaNum == parseInt(numero.innerText)) {
+            row.remove();
+            break;
+          }
+        }
+      }
+    </script>
+</body>
+</html>
